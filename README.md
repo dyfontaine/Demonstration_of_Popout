@@ -1,5 +1,5 @@
-# Pokemon_Data_Viz
-Post I wrote for NU MSiA Student Research blog
+# Demonstration of Popout
+Web-App I created and post I wrote for NU MSiA Student Research blog
 
 Link to my post: http://sites.northwestern.edu/msia/2017/06/29/a-demonstration-of-popout/
 
