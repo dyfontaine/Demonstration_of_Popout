@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>V8</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<head>
+  <meta charset="UTF-8">
+  <title>V7</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id='background'>
+  <div id='home'>
+  </div>
+  <div id='message_row'>
+    <p id='result'></p>
+  </div>
+  <div id='button_row1'>
+    <p id='START'>START</p>
+    <input type="text" id='ANSWER' size='3' />
+    <p id='STOP'>SUBMIT</p>
+    <div class="stopwatch"></div>
+  </div>
+  <div id='rbHolder'>
+    <div class='rb'>
+      <input class="radio" type="radio" name="gameType" id="rbColor"  checked="checked" value="Count the Red squares" onclick="myFunction();">
+    </div>
+    <div class='rb'>
+      Color
+    </div>
+    <div class='rb'>
+      <input class="radio" type="radio" name="gameType" id="rbShape" value="Count the Black circles" onclick="myFunction();">
+    </div>
+    <div class='rb'>
+      Shape
+    </div>
+    <div class='rb'>
+      <input class="radio" type="radio" name="gameType" id="rbBoth" value="Count the Red circles" onclick="myFunction();">
+    </div>
+    <div class='rb'>
+      Both
+    </div>
+  </div>
+  
+  <div id="instructions">Count the Red Squares</div>
+    <br>
+      <tr>
+          <td >
+            <b style="font-family: Arial; font-size:12px; display:inline-block;">Select Color: </b> 
+                <select id='colorDD' onchange="myFunction()" style="border-radius:4px;border:1px solid #AAAAAA;">
+                      <option value="hsl(360,100%,50%)">Red</option>
+                      <option value="hsl(245,100%,50%)">Blue</option>
+                      <option value="hsl(125,100%,50%)">Green</option>
+                      <option value="hsl(285,100%,50%)">Purple</option>
+                      <option value="hsl(60,100%,50%)">Yellow</option>
+                      <option value="hsl(40,100%,50%)">Orange</option>
+                </select>
+              
+          </td>
+          <td>
+<b style="font-family: Arial; font-size:12px; display:inline-block;">Select Shape: </b> 
+                <select id='shapeDD' onchange="myFunction()" style="visibility: hidden; border-radius:4px;border:1px solid #AAAAAA;">
+                      <option value="d3.symbolCircle">Circle</option>
+                      <option value="d3.symbolCross">Cross</option>
+                      <option value="d3.symbolDiamond">Diamond</option>
+                      <option value="d3.symbolStar">Star</option>
+                      <option value="d3.symbolTriangle">Triangle</option>
+                </select>
+          </td>
+      </tr>
+
+</div>
+    
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js'></script>
+    <script src="https://d3js.org/d3-shape.v1.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
